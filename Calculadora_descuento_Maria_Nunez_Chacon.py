@@ -8,8 +8,8 @@ def calcular_descuento ():
     
   precio_final = aplicar_descuento(precio, descuento)
 
-  def mostrar_mensaje (monto):
-    print("El monto a pagar es:", monto)
+  def mostrar_mensaje (precio_final):
+    print("El monto a pagar es:", precio_final)
 
   mostrar_mensaje(precio_final)
 
